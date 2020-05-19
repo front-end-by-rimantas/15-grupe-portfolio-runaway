@@ -9,6 +9,22 @@
     background-color: yellow;
 }
 
+.container > .row > .col-12,
+.container > .row > .col-6,
+.container > .row > .col-4,
+.container > .row > .col-1{
+    display: inline-block;
+    float: left;
+}
+.container > .row > .col-12 {
+    width: 100%;
+}
+.container > .row > .col-6 {
+    width: 60%;
+}
+.container > .row > .col-4 {
+    width: calc(100% / 3);
+}
 
 
 @media (max-width: 1500px) {
