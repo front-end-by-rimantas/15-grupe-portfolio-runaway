@@ -1,9 +1,9 @@
-section {
+.container {
     width: 100%;
     display: inline-block;
 }
 
-.row {
+.container > .row {
     width: 1400px;
     margin: 0 calc(50% - 700px) ;
     background-color: yellow;
@@ -12,32 +12,32 @@ section {
 
 
 @media (max-width: 1500px) {
-    .row {
+    .container > .row {
         width: 1200px;
         margin: 0 calc(50% - 600px) ;
     }   
 }
 
 @media (max-width: 1300px) {
-    .row {
+    .container > .row {
         width: 980px;
         margin: 0 calc(50% - 490px) ;
     }   
 }
 @media (max-width: 1080px) {
-.row {
+    .container > .row {
     width: 768px;
     margin: 0 calc(50% - 384px) ;
 }   
 }
 @media (max-width: 860px) {
-    .row {
+    .container > .row {
         width: 480px;
         margin: 0 calc(50% - 240px) ;
     }
 }
 @media (max-width: 580px) {
-    .row {
+    .container > .row {
         width: 100%;
         margin: 0;
     }
