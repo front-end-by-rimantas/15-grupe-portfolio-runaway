@@ -1,10 +1,12 @@
 .experience {
     width: 100%;
     display: inline-block;
-    background: url(../img/skills_bg.jpg);
-    
-    background-attachment: fixed;
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.88), 
+        rgba(0, 0, 0, 0.88)),
+      url(../img/skills_bg.jpg);
+        background-attachment: fixed;
     background-position: center;
-    
     color: white;
 }
