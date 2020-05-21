@@ -1,0 +1,10 @@
+.experience {
+    width: 100%;
+    display: inline-block;
+    background: url(../img/skills_bg.jpg);
+    
+    background-attachment: fixed;
+    background-position: center;
+    
+    color: white;
+}
