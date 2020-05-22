@@ -20,4 +20,5 @@
 .yellowCounter {
     color: var(--additional-color);
     font-size: larger;
+    color: var(----additional-color);
 }
