@@ -1,3 +1,7 @@
 .imagine{
-    width: 294px;
+    max-width: 80%;
+    height: auto;
+}
+.about_one {
+    padding:0;
 }
