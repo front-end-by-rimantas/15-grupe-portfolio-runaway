@@ -1,7 +1,71 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color:#818181;
+    font-weight: 400;
+    
+}
+h2 {
+    text-transform: uppercase!important;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 800;
+    color:black
+}
+
 .imagine{
-    max-width: 80%;
+    width: 100%;
     height: auto;
 }
+
 .about_one {
     padding:0;
+}
+.about_intro{
+    display: inline-block;
+    
+    padding-bottom: 60px;
+    text-align: center!important;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+      
+}
+.flex-container > div{
+    width: 100%;
+    margin: 0 5px;
+    font-size:14px
+}
+
+.border_bottom > * {
+    border-bottom: 1px solid #E1E1F1;
+    padding: 5px 0
+}
+
+@media(max-width:1000px){
+    .flex-container {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+.aboutBeforeAfter{
+    color:#ffb32f
+}
+.aboutBeforeAfter::before{
+    color:#ffb32f;
+    content: "";
+    width:5px;
+    height: 1px;
+}
+
+.subtitle {
+    text-align: center;
+   
+
 }
