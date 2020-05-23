@@ -72,7 +72,7 @@
     .container > .row > .col-xl-3 { width: var(--w-3); }
     .container > .row > .col-xl-2 { width: var(--w-2); }
     .container > .row > .col-xl-1 { width: var(--w-1); }
-    }
+}
 
 @media (max-width: 1300px) {
     :root {

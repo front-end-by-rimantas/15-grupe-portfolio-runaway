@@ -1,10 +1,16 @@
 .bg-main-color {
     background-color: var(--main-color); 
-    }
+}
     
 .bg-secondary-color {
     background-color: var(--secondary-color); 
-    }
+}
 .additional-color {
     color: var(--additional-color);
+}
+.title-color {
+    color: var(--title-color);
+}
+.paragraph-color {
+    color: var(--paragraph-color);
 }
