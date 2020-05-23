@@ -6,45 +6,88 @@ body{
     font-weight: 400;
     
 }
-h2 {
-    text-transform: uppercase!important;
-    font-size: 32px;
-    line-height: 44px;
-    font-family: 'Poppins',sans-serif;
-    font-weight: 800;
-    color:black
-}
-
-.imagine{
-    width: 100%;
-    height: auto;
-}
-
-.about_one {
-    padding:0;
-}
-.about_intro{
+.sectionAbout .center{
+    text-align: center;
     display: inline-block;
-    
-    padding-bottom: 60px;
-    text-align: center!important;
-    
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-      
-}
-.flex-container > div{
     width: 100%;
-    margin: 0 5px;
-    font-size:14px
+    margin-bottom: 30px;
 }
 
-.border_bottom > * {
-    border-bottom: 1px solid #E1E1F1;
-    padding: 5px 0
+    .aboutBeforeAfter{
+        color:#ffb32f;
+        font-weight: 600;
+        position: relative;
+        width: var(--w-2);
+        margin-left: var(--ml-5);
+    }
+    
+        .line::before{
+            content: "";
+            position: absolute;
+            width: 25px;
+            height: 2px;
+            top: 50%;
+            background-color: #ffb32f!important;
+            left:0;
+        }
+        .line::after{
+            content: "";
+            position: absolute;
+            width: 25px;
+            height: 2px;
+            top: 50%;
+            background-color: #ffb32f!important;
+            right:0;
+        }
+        h2 {
+            text-transform: uppercase!important;
+            font-size: 32px;
+            line-height: 44px;
+            font-family: 'Poppins',sans-serif;
+            font-weight: 800;
+            color:black;
+            margin: 10px 0;
+        }
+        
+        .titleAbout{
+
+        }
+
+        .subtitle {
+            text-align: center;   
+        }
+
+        .about_one {
+            padding:0;
+        }
+
+        .aboutMyselfParagraphs{
+
+        }
+
+        .personal_info{
+
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+              
+        }
+        .flex-container > div{
+            width: 100%;
+            margin: 0 5px;
+            font-size:14px
+        }
+        .border_bottom > * {
+            border-bottom: 1px solid #E1E1F1;
+            padding: 5px 0
+        }
+
+    .imagine{
+        max-width: 90%;
+        height: auto;   
+
 }
 
 @media(max-width:1000px){
@@ -52,20 +95,4 @@ h2 {
         display: inline-block;
         width: 100%;
     }
-}
-
-.aboutBeforeAfter{
-    color:#ffb32f
-}
-.aboutBeforeAfter::before{
-    color:#ffb32f;
-    content: "";
-    width:5px;
-    height: 1px;
-}
-
-.subtitle {
-    text-align: center;
-   
-
 }
