@@ -3,9 +3,9 @@ body{
     font-size: 16px;
     line-height: 28px;
     color:#818181;
-    font-weight: 400;
-    
+    font-weight: 400;  
 }
+
 .sectionAbout .center{
     text-align: center;
     display: inline-block;
@@ -14,20 +14,24 @@ body{
 }
 
     .aboutBeforeAfter{
-        color:#ffb32f;
+        color:var(--additional-color2);
         font-weight: 600;
         position: relative;
         width: var(--w-2);
         margin-left: var(--ml-5);
     }
-    
+        .line{
+            display: inline-block;
+            width:100%;
+            font-size: 25px;
+        }
         .line::before{
             content: "";
             position: absolute;
             width: 25px;
             height: 2px;
             top: 50%;
-            background-color: #ffb32f!important;
+        background-color:var(--additional-color2)!important;
             left:0;
         }
         .line::after{
@@ -36,7 +40,7 @@ body{
             width: 25px;
             height: 2px;
             top: 50%;
-            background-color: #ffb32f!important;
+            background-color:var(--additional-color2)!important;
             right:0;
         }
         h2 {
@@ -46,15 +50,20 @@ body{
             font-family: 'Poppins',sans-serif;
             font-weight: 800;
             color:black;
-            margin: 10px 0;
+            margin: 0 0 10px 0;
         }
         
         .titleAbout{
-
+            display: inline-block;
+            width: 100%;
+            float: left;
         }
 
         .subtitle {
-            text-align: center;   
+            text-align: center; 
+            display: inline-block;
+            width: 100%;
+            padding: 15px;  
         }
 
         .about_one {
@@ -62,11 +71,15 @@ body{
         }
 
         .aboutMyselfParagraphs{
-
+        display:inline-block;
+        width: 100%;
+        padding: 15px;
         }
 
         .personal_info{
-
+            display: inline-block;
+            width: 100%;
+            padding: 15px;
         }
 
         .flex-container {
@@ -87,6 +100,7 @@ body{
     .imagine{
         max-width: 90%;
         height: auto;   
+        padding: 15px;
 
 }
 
@@ -94,5 +108,17 @@ body{
     .flex-container {
         display: inline-block;
         width: 100%;
+    }
+}
+@media(max-width:900px){
+    .line::before,
+    .line::after {
+        width: 12px;
+    }
+}
+@media(max-width:400px){
+    .line::before,
+    .line::after {
+        width: 6px;
     }
 }
