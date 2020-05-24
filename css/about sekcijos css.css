@@ -14,7 +14,7 @@ body{
 }
 
     .aboutBeforeAfter{
-        color:var(--additional-color2);
+        color:var(--additional-color);
         font-weight: 600;
         position: relative;
         width: var(--w-2);
@@ -31,7 +31,7 @@ body{
             width: 25px;
             height: 2px;
             top: 50%;
-        background-color:var(--additional-color2)!important;
+        background-color:var(--additional-color)!important;
             left:0;
         }
         .line::after{
@@ -40,7 +40,7 @@ body{
             width: 25px;
             height: 2px;
             top: 50%;
-            background-color:var(--additional-color2)!important;
+            background-color:var(--additional-color)!important;
             right:0;
         }
         h2 {
