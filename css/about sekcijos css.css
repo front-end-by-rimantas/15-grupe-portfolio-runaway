@@ -1,0 +1,124 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color:#818181;
+    font-weight: 400;  
+}
+
+.sectionAbout .center{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+    .aboutBeforeAfter{
+        color:var(--additional-color2);
+        font-weight: 600;
+        position: relative;
+        width: var(--w-2);
+        margin-left: var(--ml-5);
+    }
+        .line{
+            display: inline-block;
+            width:100%;
+            font-size: 25px;
+        }
+        .line::before{
+            content: "";
+            position: absolute;
+            width: 25px;
+            height: 2px;
+            top: 50%;
+        background-color:var(--additional-color2)!important;
+            left:0;
+        }
+        .line::after{
+            content: "";
+            position: absolute;
+            width: 25px;
+            height: 2px;
+            top: 50%;
+            background-color:var(--additional-color2)!important;
+            right:0;
+        }
+        h2 {
+            text-transform: uppercase!important;
+            font-size: 32px;
+            line-height: 44px;
+            font-family: 'Poppins',sans-serif;
+            font-weight: 800;
+            color:black;
+            margin: 0 0 10px 0;
+        }
+        
+        .titleAbout{
+            display: inline-block;
+            width: 100%;
+            float: left;
+        }
+
+        .subtitle {
+            text-align: center; 
+            display: inline-block;
+            width: 100%;
+            padding: 15px;  
+        }
+
+        .about_one {
+            padding:0;
+        }
+
+        .aboutMyselfParagraphs{
+        display:inline-block;
+        width: 100%;
+        padding: 15px;
+        }
+
+        .personal_info{
+            display: inline-block;
+            width: 100%;
+            padding: 15px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+              
+        }
+        .flex-container > div{
+            width: 100%;
+            margin: 0 5px;
+            font-size:14px
+        }
+        .border_bottom > * {
+            border-bottom: 1px solid #E1E1F1;
+            padding: 5px 0
+        }
+
+    .imagine{
+        max-width: 90%;
+        height: auto;   
+        padding: 15px;
+
+}
+
+@media(max-width:1000px){
+    .flex-container {
+        display: inline-block;
+        width: 100%;
+    }
+}
+@media(max-width:900px){
+    .line::before,
+    .line::after {
+        width: 12px;
+    }
+}
+@media(max-width:400px){
+    .line::before,
+    .line::after {
+        width: 6px;
+    }
+}
