@@ -12,6 +12,17 @@
     --w-10: calc( var(--w-9) + var(--gap) + var(--w-1) );
     --w-11: calc( var(--w-10) + var(--gap) + var(--w-1) );
     --w-12: calc( var(--w-11) + var(--gap) + var(--w-1) );
+
+    --ml-1: calc( var(--w-1) + 1.5 * var(--gap) );
+    --ml-2: calc( var(--w-2) + 1.5 * var(--gap) );
+    --ml-3: calc( var(--w-3) + 1.5 * var(--gap) );
+    --ml-4: calc( var(--w-4) + 1.5 * var(--gap) );
+    --ml-5: calc( var(--w-5) + 1.5 * var(--gap) );
+    --ml-6: calc( var(--w-6) + 1.5 * var(--gap) );
+    --ml-7: calc( var(--w-7) + 1.5 * var(--gap) );
+    --ml-8: calc( var(--w-8) + 1.5 * var(--gap) );
+    --ml-9: calc( var(--w-9) + 1.5 * var(--gap) );
+    --ml-10: calc( var(--w-10) + 1.5 * var(--gap) );
 }
 
 .container {
