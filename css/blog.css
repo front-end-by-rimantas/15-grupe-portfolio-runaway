@@ -1,0 +1,107 @@
+.viewBlogBtn {
+    background-color: var(--additional-color);  
+    text-transform: uppercase;
+    text-align: center;
+    
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color:white;
+    font-weight: 800;
+    margin-left: calc(50% - 53.68px);
+    cursor: pointer;
+    padding: 4px 18px;  
+    transition: 0.5s;
+}
+.viewBlogBtn:hover{
+    background-color: var(--additional-color3)
+
+}
+
+.blog-item{
+position: relative;
+}
+    .blog-item > .comments{
+       position: absolute;
+        top: 10px;
+        right: 30px;
+        color:var(--additional-color);
+        font-size: 42px;
+}
+.blog-item > .comments .num-in-comments{
+    position: absolute;
+    top: 7px;
+    right: 12px;
+    z-index: 11;
+    font-size: 14px;
+    font-weight: 800;
+    color:white;
+}
+
+    .blog-image > img {
+        display: inline-block;
+        height: auto;
+        float: left;
+        width: 100%;   
+        margin-bottom: 10px;     
+    }
+
+    blog-item > .blog-content{
+
+}
+        blog-item > .blog-content > .blog-title{
+
+        }
+            .blog-title > .blog-title-a{
+                display: inline-block;
+                width: 100%;
+                text-decoration: none;
+                font-weight: 800;
+                font-size: 15px;
+                line-height: 20px;
+                color: var(--additional-color3);
+                cursor: pointer;
+        }
+            .blog-title > .blog-title-a:hover{
+                color: var(--additional-color);
+                transition: 0.5s;   
+            }
+
+
+        .blog-item > .blog-content > .blog-p{
+            margin-top: 15px;
+            margin-bottom:30px;
+        }
+        .blog-item > .blog-content > .blog-admin{
+            font-size: 14px;
+            display: inline-block;
+            background-color:var(--additional-color3);
+            color: white;
+            border-radius: 30px;
+            float: left;
+
+        }
+            .blog-item > .blog-content > .blog-admin > img{
+                width: 40px !important;
+                display: inline-block;
+                height: 40px;
+                border-radius: 100%;
+               
+                float: left;
+            }
+        
+            .blog-item > .blog-content > .blog-admin > span{
+                padding-right: 40px;
+                line-height: 39px;
+        }
+        .blog-item > .blog-content > .blog-date{
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 39px;
+            float: right;
+            color:var(--additional-color3);
+            display: inline-block;
+        }
+
+
+      
