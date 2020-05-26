@@ -5,6 +5,11 @@ import skills from './data/skills.js';
 
 import renderProgressBar from './components/progress-bar.js';
 
+import blogItemData from './blog-section-js/blog-data.js';
+import BlogItem from './blog-section-js/blog-section-logic.js';
+
+
+
 const progressBarsSelector = '#skills .skills-data-list';
 renderProgressBar( progressBarsSelector, skills );
 
@@ -24,3 +29,7 @@ window.addEventListener('scroll', () => {
         } 
     }
 });
+
+
+const blogItemSelector = '#blog_items  .row';
+new BlogItem( blogItemSelector, blogItemData);
