@@ -6,6 +6,5 @@ body * {
   box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   word-break: keep-all;
-  font-size: 16px;
   line-height: 28px;
 }
