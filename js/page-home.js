@@ -5,8 +5,18 @@ import skills from "./data/skills.js";
 
 import renderProgressBar from "./components/progress-bar.js";
 
+
 const progressBarsSelector = "#skills .skills-data-list";
 renderProgressBar(progressBarsSelector, skills);
+
+import blogItemData from './blog-section-js/blog-data.js';
+import BlogItem from './blog-section-js/blog-section-logic.js';
+
+
+
+const progressBarsSelector = '#skills .skills-data-list';
+renderProgressBar( progressBarsSelector, skills );
+
 
 const progressBars = document.querySelectorAll(
   progressBarsSelector + " > .progress-bar"
@@ -22,6 +32,7 @@ window.addEventListener("scroll", () => {
     if (pgBottomHeight < windowBottomlHeight) {
       pg.dataset.animated = "true";
     }
+
   }
 });
 
@@ -67,3 +78,10 @@ window.scrollToContact = function () {
   const contact = document.getElementById("contact");
   contact.scrollIntoView({ behavior: "smooth" });
 };
+
+});
+
+
+const blogItemSelector = '#blog_items  .row';
+new BlogItem( blogItemSelector, blogItemData);
+
