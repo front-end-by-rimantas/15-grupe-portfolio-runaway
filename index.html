@@ -22,26 +22,31 @@
     <header class="nav">
             <div class="runAwayLogo" id="landingpage">.</div> <!--i know :D -->
             <a href="#landingpage">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">SKILL</a>
-            <a href="#">SERVICES</a>
-            <a href="#">PORTFOLIO</a>
-            <a href="#">TESTIMONIAL</a>
-            <a href="#">BLOG</a>
-            <a href="#">CONTACT</a>
+            <a onClick="scrollToAbout()">ABOUT</a>
+            <a onClick="scrollToSkills()">SKILL</a>
+            <a onClick="scrollToServices()">SERVICES</a>
+            <a onClick="scrollToPortfolio()">PORTFOLIO</a>
+            <a onClick="scrollToTestimonials()">TESTIMONIAL</a>
+            <a onClick="scrollToBlog()">BLOG</a>
+            <a onClick="scrollToContact()">CONTACT</a>
       </div>
     </header>
         <div class="landingPage">
           <div class="filtras"></div>
           <div class="heroContainer">
             <div>I Am Austin Jackson!</div>
-            <div>I AM A UI/UX DESIGNER.DEVELOPER.FREELANCER.</div>
+            <div class="iamuiux">
+              <div class="iamuiuxmargin">I AM A UI/UX </div>
+            <div class="designer">DESIGNER.</div>
+            <div class="developer">DEVELOPER.</div>
+            <div class="freelancer">FREELANCER.</div>  
+           </div>
             <div>Libero habitasse sollicitudin aliquet venenatis iaculis placerat amet ligula, eleifend nonummy enim in volutpat diam.</div>
           <a href="kazkaskazkur.lt"> <span class="downloadButton">DOWNLOAD CV</span></a>
           </div>  
         </div>
 
-        <div class="container bg-main-color sectionAbout">
+        <div class="container bg-main-color sectionAbout" id="sectionAbout">
           <div class="row">
             <div class="col-12 before_after">
               <div class="text_center">
@@ -143,7 +148,7 @@
           </div>
         </div>
       </div>
-        <div class="container bg-main-color">
+        <div class="container bg-main-color" id="services">
           <div class="row">
             <div class="col-12">
               SERVICES
@@ -155,7 +160,7 @@
             <div class="col-4 col-xs-12">wordpress</div>
           </div>
         </div>
-        <div class="container bg-secondary-color">
+        <div class="container bg-secondary-color" id="portfolio">
           <div class="row">
             <div class="col-12">
               PORTFOLIO
@@ -172,14 +177,14 @@
             <div class="col-4 col-sm-12">picture</div>
           </div>
         </div>
-       <div class="container bg-main-color">
+       <div class="container bg-main-color" id="testimonials">
         <div class="row">
           <div class="col-12">
             TESTIMONIALS  
           </div>
         </div>
        </div>
-       <div class="container bg-secondary-color">
+       <div class="container bg-secondary-color" id="blog">
         <div class="row">
           <div class="col-12 before_after">
             <div class="text_center">   
@@ -225,7 +230,7 @@
           </div>
         </div>
        </div>
-        <div class="container bg-main-color">
+        <div class="container bg-main-color" id="contact">
           <div class="row">
             <div class="col-12">
               CONTACT

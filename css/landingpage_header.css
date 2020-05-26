@@ -17,20 +17,38 @@
 }
 
 .nav {
+  top: 0px;
   display: flex;
   align-items: center;
-  position: absolute;
   justify-content: center;
   height: 55px;
   width: 100%;
   text-align: center;
-  z-index: 10;
+  z-index: 15;
   box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  color: white;
+}
+
+/* // nav baro scrollas // */
+
+.nav.scrolled {
+  background: white;
+  color: black;
+  animation: slidein 0.5s;
+}
+@keyframes slidein {
+  from {
+    top: -55px;
+  }
+  to {
+    top: 0px;
+  }
 }
 .nav > a {
   margin: 10px 10px 10px 10px;
   text-decoration: none;
-  color: white;
+  color: inherit;
 }
 .nav > a:link {
   text-decoration: none;
@@ -42,6 +60,7 @@
 
 .nav > a:hover {
   text-decoration: none;
+  color: orange;
 }
 
 .nav > a:active {
@@ -99,4 +118,90 @@
 
 .landingPage a:active {
   text-decoration: none;
+}
+
+.iamuiux {
+  display: flex;
+  font-size: 40px;
+}
+.iamuiuxmargin {
+  margin-right: 10px;
+}
+.designer {
+  animation: designer 10s infinite;
+  overflow: hidden;
+  color: orange;
+}
+
+@keyframes designer {
+  0% {
+    width: 0px;
+  }
+  6% {
+    width: 300px;
+  }
+  24% {
+    width: 300px;
+  }
+  30% {
+    width: 0px;
+  }
+  100% {
+    width: 0px;
+  }
+}
+.developer {
+  animation: developer 10s infinite;
+  overflow: hidden;
+  color: orange;
+}
+
+@keyframes developer {
+  0% {
+    width: 0px;
+  }
+  30% {
+    width: 0px;
+  }
+  36% {
+    width: 300px;
+  }
+  54% {
+    width: 300px;
+  }
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 0px;
+  }
+}
+.freelancer {
+  animation: freelancer 10s infinite;
+  overflow: hidden;
+  color: orange;
+}
+
+@keyframes freelancer {
+  0% {
+    width: 0px;
+  }
+  60% {
+    width: 0px;
+  }
+  66% {
+    width: 0px;
+  }
+  72% {
+    width: 300px;
+  }
+  90% {
+    width: 300px;
+  }
+  96% {
+    width: 0px;
+  }
+  100% {
+    width: 0px;
+  }
 }
