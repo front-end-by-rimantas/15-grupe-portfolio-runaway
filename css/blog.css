@@ -10,7 +10,7 @@
     font-weight: 800;
     margin-left: calc(50% - 53.68px);
     cursor: pointer;
-    padding: 4px 18px;  
+    padding: 10px 30px;  
     transition: 0.5s;
 }
 .viewBlogBtn:hover{
@@ -20,6 +20,7 @@
 
 .blog-item{
 position: relative;
+
 }
     .blog-item > .comments{
        position: absolute;
@@ -46,8 +47,11 @@ position: relative;
         margin-bottom: 10px;     
     }
 
-    blog-item > .blog-content{
-
+    .blog-item > .blog-content{
+        padding: 30px 15px;
+        display: inline-block;
+        background-color: white;
+        box-shadow: 20px 20px 30px -15px rgba(0,0,0,0.31);
 }
         blog-item > .blog-content > .blog-title{
 
@@ -104,4 +108,12 @@ position: relative;
         }
 
 
-      
+     #blog_items {
+         padding:0 0 80px;
+     }
+
+     #blog_items .col-4{
+         padding-bottom: 20px;
+       
+         
+     }
