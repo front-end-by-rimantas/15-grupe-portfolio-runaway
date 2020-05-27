@@ -61,14 +61,14 @@ position: relative;
         box-shadow: 20px 20px 30px -15px rgba(0,0,0,0.31);
 }
         blog-item > .blog-content > .blog-title{
-
+            display: inline-block;
         }
             .blog-title > .blog-title-a{
                 display: inline-block;
                 width: 100%;
                 text-decoration: none;
                 font-weight: 800;
-                font-size: 15px;
+                font-size: 18px;
                 line-height: 20px;
                 color: var(--additional-color3);
                 cursor: pointer;
@@ -82,6 +82,8 @@ position: relative;
         .blog-item > .blog-content > .blog-p{
             margin-top: 15px;
             margin-bottom:30px;
+            font-size: 16px;
+            color: var(--paragraph-color);
         }
         .blog-item > .blog-content > .blog-admin{
             font-size: 14px;
@@ -97,12 +99,12 @@ position: relative;
                 display: inline-block;
                 height: 40px;
                 border-radius: 100%;
-               
+                margin-right: 15px;
                 float: left;
             }
         
             .blog-item > .blog-content > .blog-admin > span{
-                padding-right: 40px;
+                padding-right: 25px;
                 line-height: 39px;
         }
         .blog-item > .blog-content > .blog-date{
@@ -121,6 +123,4 @@ position: relative;
 
      #blog_items .col-4{
          padding-bottom: 20px;
-       
-         
      }
