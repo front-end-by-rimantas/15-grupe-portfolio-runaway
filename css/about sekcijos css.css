@@ -1,10 +1,10 @@
-body{
+/* body{
     font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     line-height: 28px;
     color:#818181;
     font-weight: 400;  
-}
+} */
 
 .sectionAbout .center{
     text-align: center;
@@ -13,7 +13,7 @@ body{
     margin-bottom: 30px;
 }
 
-    .aboutBeforeAfter{
+    /* .aboutBeforeAfter{
         color:var(--additional-color);
         font-weight: 600;
         position: relative;
@@ -64,22 +64,23 @@ body{
             display: inline-block;
             width: 100%;
             padding: 15px;  
-        }
+        } */
 
         .about_one {
             padding:0;
         }
 
-        .aboutMyselfParagraphs{
+        /* .aboutMyselfParagraphs{
         display:inline-block;
         width: 100%;
         padding: 15px;
-        }
+        } */
 
         .personal_info{
             display: inline-block;
             width: 100%;
             padding: 15px;
+            color: var(--paragraph-color);
         }
 
         .flex-container {
@@ -110,7 +111,7 @@ body{
         width: 100%;
     }
 }
-@media(max-width:900px){
+/* @media(max-width:900px){
     .line::before,
     .line::after {
         width: 12px;
@@ -121,4 +122,4 @@ body{
     .line::after {
         width: 6px;
     }
-}
+} */
