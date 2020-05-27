@@ -10,16 +10,8 @@ import BlogItem from './blog-section-js/blog-section-logic.js';
 const blogItemSelector = '#blog_items .row';
 new BlogItem( blogItemSelector, blogItemData);
 
-
 const progressBarsSelector = "#skills .skills-data-list";
 renderProgressBar(progressBarsSelector, skills);
-
-
-
-
-const progressBarsSelector = '#skills .skills-data-list';
-renderProgressBar( progressBarsSelector, skills );
-
 
 const progressBars = document.querySelectorAll(
   progressBarsSelector + " > .progress-bar"
@@ -35,7 +27,6 @@ window.addEventListener("scroll", () => {
     if (pgBottomHeight < windowBottomlHeight) {
       pg.dataset.animated = "true";
     }
-
   }
 });
 
@@ -81,7 +72,3 @@ window.scrollToContact = function () {
   const contact = document.getElementById("contact");
   contact.scrollIntoView({ behavior: "smooth" });
 };
-
-
-
-
