@@ -6,6 +6,12 @@ import skills from "./data/skills.js";
 import renderProgressBar from "./components/progress-bar.js";
 import blogItemData from './blog-section-js/blog-data.js';
 import BlogItem from './blog-section-js/blog-section-logic.js';
+import servicesSectionData from './services section.js/sevices-section-data.js';
+import ServiceItem from './services section.js/services.js';
+
+const serviceItemSelector = '#service_items .row';
+new ServiceItem( serviceItemSelector, servicesSectionData);
+
 
 const blogItemSelector = '#blog_items .row';
 new BlogItem( blogItemSelector, blogItemData);
