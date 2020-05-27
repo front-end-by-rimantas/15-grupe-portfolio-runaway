@@ -4,13 +4,16 @@ import skills from "./data/skills.js";
 // import experience from './data/experience.js';
 
 import renderProgressBar from "./components/progress-bar.js";
+import blogItemData from './blog-section-js/blog-data.js';
+import BlogItem from './blog-section-js/blog-section-logic.js';
+
+const blogItemSelector = '#blog_items .row';
+new BlogItem( blogItemSelector, blogItemData);
 
 
 const progressBarsSelector = "#skills .skills-data-list";
 renderProgressBar(progressBarsSelector, skills);
 
-import blogItemData from './blog-section-js/blog-data.js';
-import BlogItem from './blog-section-js/blog-section-logic.js';
 
 
 
@@ -79,9 +82,6 @@ window.scrollToContact = function () {
   contact.scrollIntoView({ behavior: "smooth" });
 };
 
-});
 
 
-const blogItemSelector = '#blog_items  .row';
-new BlogItem( blogItemSelector, blogItemData);
 
