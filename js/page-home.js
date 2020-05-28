@@ -8,6 +8,17 @@ import renderTestimonials from "./testimonials_section_js/testimonials.js";
 import testimonialsData from "./testimonials_section_js/testimonials_data.js";
 import blogItemData from './blog-section-js/blog-data.js';
 import BlogItem from './blog-section-js/blog-section-logic.js';
+import servicesSectionData from './services section.js/sevices-section-data.js';
+import ServiceItem from './services section.js/services.js';
+import portfolioSectionData from './portfolio-section-js.js/portfolio-data.js';
+import PortfolioItem from './portfolio-section-js.js/portfolio-logic.js';
+
+const portfolioItemSelector = '#portfolio_items .row';
+new PortfolioItem( portfolioItemSelector, portfolioSectionData);
+
+const serviceItemSelector = '#service_items .row';
+new ServiceItem( serviceItemSelector, servicesSectionData);
+
 
 const blogItemSelector = '#blog_items .row';
 new BlogItem( blogItemSelector, blogItemData);

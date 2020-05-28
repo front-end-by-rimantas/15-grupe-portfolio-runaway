@@ -1,0 +1,45 @@
+.filters{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+    .filters_list{
+       display: inline-block;
+       width: 100%;
+       
+       margin-left: auto;      
+    }
+    .filters_list > a{
+        display: inline-block;
+        text-decoration: none;
+        color: var(--paragraph-color);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 0px 15px;
+        cursor: pointer;
+     
+    }
+.filters_list .active{
+    color: var( --additional-color);
+}
+
+    .filters_list > a:active{
+        color: var( --additional-color);
+    }
+
+    .single_photo{
+        display: inline-block;
+        width: 100%;   
+        
+    }
+    .single_photo > img{
+        display: inline-block;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #portfolio_items{
+        padding:0;
+    }
+
+   
