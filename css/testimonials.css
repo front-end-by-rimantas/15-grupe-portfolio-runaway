@@ -1,3 +1,48 @@
 .testimonials {
     display: inline-block;
+    width: 100%;
 }
+    .testimonials > .testimonial {
+        display: inline-block;
+        width: 70%;
+        margin: 0 15%;
+    }
+        .testimonials > .testimonial > .picture {
+            display: inline-block;
+            width: 100%;
+            position: relative;
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 50%;
+            }
+              
+              .picture img {
+                width: auto;
+                height: 100%;
+                /* margin-left: -50px; */
+              }
+        .testimonials > .testimonial > .stars {
+            display: inline-block;
+            width: 100%;
+            color: #b8860b;
+        }
+        .testimonials > .testimonial > .author {
+            display: inline-block;
+            width: 100%;
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 600;  
+            font-family: 'Open Sans',sans-serif;
+            color: rgb(68, 66, 66);
+        }
+        .testimonials > .testimonial > .text {
+            display: inline-block;
+            width: 100%;
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;  
+            font-family: 'Open Sans',sans-serif;
+            color: var(--paragraph-color);
+        }
+
