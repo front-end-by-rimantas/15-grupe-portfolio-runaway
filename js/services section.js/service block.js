@@ -13,7 +13,7 @@ class ServiceBlock{
         }     
         render(){
             const HTML = ` 
-            <div class="col-4 col-xs-12">
+            <div class="col-4 col-lg-6 col-md-12 col-xs-12">
             <div class="singleBlock">
               <div class="serviceNumber">
                 ${this.data.serviceNumber}
