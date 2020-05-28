@@ -1,22 +1,26 @@
 export default [
     {
+        picture: './img/testimonial/lucas_png.png',
+        stars: 5,
         author: 'Lucas Noah',
-        stars: 5,
         text: 'Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.'
     },
     {
+        picture: './img/testimonial/grace_png.png',
+        stars: 5,
         author: 'Grace Ruby',
-        stars: 5,
         text: 'Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.'
     },
     {
-        author: 'Aisha Lexi',
+        picture: './img/testimonial/aisha_png.png',
         stars: 3.5,
+        author: 'Aisha Lexi',
         text: 'Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.'
     },
     {
-        author: 'Kiara Paige',
+        picture: './img/testimonial/kiara_png.png',
         stars: 4,
+        author: 'Kiara Paige',
         text: 'Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.'
     },
 ];
