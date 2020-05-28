@@ -1,0 +1,77 @@
+.pseudo.services::before {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 25px;
+    top: 50%;
+    left: 65px;
+    background-color: var(--additional-color);
+}
+.pseudo.services::after {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 25px;
+    top: 50%;
+    right: 65px;
+    background-color: var(--additional-color);
+}
+
+
+.singleBlock{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    padding-top: 15px;
+    margin-bottom: 30px;
+
+}
+
+    .singleBlock > .serviceNumber{
+        color:#e1e1e1;
+        display: inline-block;
+        width: 100%;
+        font-size: 50px;
+        float: right;
+        text-align: right;
+       padding: 30px 30px;
+       overflow: hidden;
+       position: relative;
+    }
+    
+    .singleBlock > h3{
+        display: inline-block;
+        color: var(--additional-color3);
+        width: 100%;
+        padding:20px;
+        text-transform: uppercase;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 800;
+    
+}
+
+    .singleBlock .iconServer{
+    display: inline-block;
+    width: 100px;
+    height:100px;
+    color:white;
+    background-color:var(--additional-color);
+    margin-bottom: 20px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+
+}
+.singleBlock .iconServer:hover{
+    transform: rotateY(180deg);
+}
+        .singleBlock .iconServer  i{
+        margin-top: 20px;
+}
+        .singleBlock p {
+            padding:20px;
+            margin-bottom: 30px;
+        }
