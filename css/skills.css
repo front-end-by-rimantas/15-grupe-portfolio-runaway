@@ -35,7 +35,7 @@
             width: 0%;
             height: 100%;
             background-color: var(--additional-color);
-            animation: loading 2s cubic-bezier(0.48, 0.26, 0.35, 0.83) 1s infinite alternate forwards;
+            animation: loading 2s cubic-bezier(0.48, 0.26, 0.35, 0.83) infinite alternate forwards;
             animation-iteration-count: inherit;
         }
         
