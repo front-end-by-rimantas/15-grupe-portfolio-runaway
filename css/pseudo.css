@@ -1,11 +1,14 @@
 .before_after > .text_center > .pseudo {
     display: inline-block;
+   
+   
     position: relative;
     padding: 0 50px;
     font-size: 18px;
     font-weight: 700;
     text-transform: lowercase;
     color: var(--additional-color);
+    
 }
     .pseudo::before {
         display: inline-block;

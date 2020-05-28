@@ -1,3 +1,8 @@
+
+h2{
+    width: 100%;
+    display: inline-block;
+}
 .before_after {
     display: inline-block;
 }
