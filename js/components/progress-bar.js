@@ -17,14 +17,14 @@ function renderProgressBar( selector, data ) {
     for ( let i=0; i<data.length; i++ ) {
         const skill = data[i];
         HTML += `
-            <div class="progress-bar" data-animated="false">
+            <div class="progress-bar">
                 <div class="texts">
                     <div class="title">${skill.title}</div>
                     <div class="value">${skill.value}%</div>
                 </div>
                 <div class="progress">
                     <div class="bar" style="width: ${skill.value}%;">
-                        <div class="loading"></div>
+                        <div class="toFindWhereToLoad"></div>
                     </div>
                 </div>
             </div>`;

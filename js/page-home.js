@@ -1,9 +1,11 @@
 "use strict";
 
-import skills from "./data/skills.js";
 // import experience from './data/experience.js';
 
+import skills from "./data/skills.js";
 import renderProgressBar from "./components/progress-bar.js";
+import renderTestimonials from "./testimonials_section_js/testimonials.js";
+import testimonialsData from "./testimonials_section_js/testimonials_data.js";
 import blogItemData from './blog-section-js/blog-data.js';
 import BlogItem from './blog-section-js/blog-section-logic.js';
 import servicesSectionData from './services section.js/sevices-section-data.js';
@@ -24,20 +26,25 @@ new BlogItem( blogItemSelector, blogItemData);
 const progressBarsSelector = "#skills .skills-data-list";
 renderProgressBar(progressBarsSelector, skills);
 
-const progressBars = document.querySelectorAll(
-  progressBarsSelector + " > .progress-bar"
-);
+const testimonialsSelector = '#testimonials_block';
+renderTestimonials(testimonialsSelector, testimonialsData);
+
+
+const progressBars = document.getElementsByClassName("toFindWhereToLoad");
+
 
 window.addEventListener("scroll", () => {
+  
   const windowBottomlHeight = window.scrollY + window.innerHeight;
 
   for (let i = 0; i < progressBars.length; i++) {
     const pg = progressBars[i];
+    
     const pgBottomHeight = pg.offsetTop + pg.offsetHeight;
 
-    if (pgBottomHeight < windowBottomlHeight) {
-      pg.dataset.animated = "true";
-    }
+   if (pgBottomHeight < windowBottomlHeight) {
+      pg.classList.add("loading");
+   }
   }
 });
 
