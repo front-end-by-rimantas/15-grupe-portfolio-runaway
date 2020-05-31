@@ -12,6 +12,7 @@ import servicesSectionData from './services section.js/sevices-section-data.js';
 import ServiceItem from './services section.js/services.js';
 import portfolioSectionData from './portfolio-section-js.js/portfolio-data.js';
 import PortfolioItem from './portfolio-section-js.js/portfolio-logic.js';
+//import galleryFilters from './portfolio-section-js.js/portfolio-gallery-filters.js';
 
 const portfolioItemSelector = '#portfolio_items .row';
 new PortfolioItem( portfolioItemSelector, portfolioSectionData);

@@ -13,7 +13,7 @@ class PortfolioBlock{
         render(){
             const HTML = ` 
             <div class="col-4 col-sm-12">
-            <div class="single_photo">
+            <div class="single_photo ${this.data.class}">
             <img src="${this.data.picture}">
             </div>
           </div>

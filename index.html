@@ -182,13 +182,13 @@
       </div>>
       <div class="row">
         <div class="col-12">
-         <div class="filters">
-           <div class="filters_list">
-             <a class="active">all</a>
-             <a>web design</a>
-             <a>wordpress</a>
-             <a>web development</a>
-             <a>branding</a>
+         <div class="btn_container">
+           <div class="buttons_list">
+             <button class="btn active" onclick="filterSelection('all')">show all</button>
+             <button class="btn" onclick="filterSelection('web design')">web design</button>
+             <button class="btn" onclick="filterSelection('wordpress')">wordpress</button>
+             <button class="btn" onclick="filterSelection('web development')" >web development</button>
+             <button class="btn" onclick="filterSelection('branding')" >branding</button>
            </div>
          </div>
         </div>
@@ -256,6 +256,7 @@
       </div>
     </footer>
     <script src="./js/page-home.js" type="module"></script>
+    <script src="./js/portfolio-section-js.js/portfolio-gallery-filters.js" ></script>
 </body>
 
 </html>

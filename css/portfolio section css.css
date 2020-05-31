@@ -1,15 +1,15 @@
-.filters{
+.btn_container{
     width: 100%;
     display: inline-block;
     text-align: center;
 }
-    .filters_list{
+    .buttons_list{
        display: inline-block;
        width: 100%;
        
        margin-left: auto;      
     }
-    .filters_list > a{
+    .buttons_list > .btn{
         display: inline-block;
         text-decoration: none;
         color: var(--paragraph-color);
@@ -17,13 +17,16 @@
         letter-spacing: 1px;
         margin: 0px 15px;
         cursor: pointer;
+        border: none;
+        background-color: var(--secondary-color);
+
      
     }
-.filters_list .active{
+.buttons_list .active{
     color: var( --additional-color);
 }
 
-    .filters_list > a:active{
+    .buttons_list > .btn:active{
         color: var( --additional-color);
     }
 
