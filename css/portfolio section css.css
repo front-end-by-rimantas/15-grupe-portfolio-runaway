@@ -19,14 +19,12 @@
         cursor: pointer;
         border: none;
         background-color: var(--secondary-color);
-
+        outline:none;
      
     }
-.buttons_list .active{
-    color: var( --additional-color);
-}
 
-    .buttons_list > .btn:active{
+
+    .buttons_list > .btn:focus{
         color: var( --additional-color);
     }
 

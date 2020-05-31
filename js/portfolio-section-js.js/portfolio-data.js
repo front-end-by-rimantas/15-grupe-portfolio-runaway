@@ -1,7 +1,7 @@
 export default [
     {
         picture: "./img/portfolio_1.png",
-        class: 'wordpress'
+        class: 'wordpress web development'
     },
     {
         picture: "./img/portfolio_02.png",
@@ -9,7 +9,7 @@ export default [
     },
     {
         picture: "./img/portfolio_03.png",
-        class: 'wordpress branding web development web design',
+        class: 'wordpress web development web design',
     },
     {
         picture: "./img/portfolio_04.png",
